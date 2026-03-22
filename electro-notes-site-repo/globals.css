@@ -170,8 +170,8 @@ img{max-width:100%;display:block}
   padding:22px 28px 56px;
 }
 .hero{
-  min-height: clamp(270px, 34vw, 390px);
-  padding:28px 30px 24px;
+  min-height: clamp(220px, 24vw, 300px);
+  padding:20px 24px 18px;
   border:1px solid var(--line);
   border-radius:calc(var(--radius) + 4px);
   background:
@@ -208,7 +208,7 @@ img{max-width:100%;display:block}
 }
 .hero h1{
   margin:.35rem 0 .45rem;
-  font-size:clamp(2.3rem, 4.2vw, 4.6rem);
+  font-size:clamp(2rem, 3.4vw, 4rem);
   line-height:.98;
   color:var(--accent);
   max-width:10ch;
@@ -419,7 +419,7 @@ img{max-width:100%;display:block}
 }
 .article-cover{
   position:relative;
-  height: clamp(230px, 30vw, 330px);
+  height: clamp(180px, 22vw, 250px);
   border-bottom:1px solid var(--line);
   background:#0f141d;
 }
@@ -437,15 +437,15 @@ img{max-width:100%;display:block}
 }
 .article-cover .overlay{
   position:absolute;
-  left:24px;
-  right:24px;
-  bottom:18px;
+  left:20px;
+  right:20px;
+  bottom:14px;
   z-index:1;
 }
 .article-cover .overlay h1{
   margin:0;
   color:var(--accent);
-  font-size:clamp(2rem, 3.8vw, 4rem);
+  font-size:clamp(1.7rem, 3vw, 3rem);
   line-height:.98;
   max-width:12ch;
 }
