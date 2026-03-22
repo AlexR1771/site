@@ -715,6 +715,10 @@ function writeAssets() {
 (function(){
   const input = document.getElementById('search');
   const cards = document.querySelectorAll('#articles .card');
+  document.querySelectorAll('.nav-group').forEach((group) => {
+    group.open = false;
+    group.removeAttribute('open');
+  });
   if (!input || !cards.length) return;
 
   input.addEventListener('input', () => {
